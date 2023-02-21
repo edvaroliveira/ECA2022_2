@@ -14,8 +14,8 @@ class Dependente:
     def depFuncionario(self, funcionario):
         self.funcionario = funcionario
 
-f1 = Funcionario("Alice", "90")
-d1 = Dependente("Matice", "9")
+f1 = Funcionario("Alice", 90)
+d1 = Dependente("Matice", 9)
 f1.funcDependente(d1)
 print(f1.nome)
 print(f1.idade)
