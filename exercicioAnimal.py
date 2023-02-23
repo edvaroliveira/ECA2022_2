@@ -1,10 +1,10 @@
 class Animal:
 
     def getNome(self):
-        return self.nome
+        return self._nome
 
     def setNome(self, nome):
-        self.nome = nome
+        self._nome = nome
 
     def getRaca(self):
         return self.raca
