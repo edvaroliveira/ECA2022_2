@@ -1,5 +1,5 @@
 l=[]
-for x in range(5):
+for x in range(10):
     valor = int(input("Digite um valor: "))
     l.append(valor)
 valorProcurado = int(input("Digite um valor a ser procurado: "))
