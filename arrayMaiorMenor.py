@@ -1,6 +1,7 @@
 l = []
 #menor = 9999999999999
 #maior = -1
+soma = 0
 
 #popular estrutura
 for x in range(5):
@@ -9,6 +10,7 @@ print(l)
 
 """
 for x in range(len(l)):
+    soma += l[x]
     if(l[x]>=maior):
         maior = l[x]
 
@@ -18,9 +20,11 @@ for x in range(len(l)):
 print(l)
 print(menor)
 print(maior)
+print(soma)
 """
 print(l)
 print(min(l))
 print(max(l))
+print(sum(l))
 
 
