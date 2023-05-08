@@ -56,4 +56,22 @@ $ npm uninstall @react-native-community/picker
 
 ## Instalação em ambiente Intel
 
-akjshdajkshdkjashdjashdkjahsdashdashd
+**Prerequisite to run de app:**
+1. Xcode with iPhone 11 simulator
+
+First, clone the project using the "Terminal", according to the following command:
+```console
+$ git clone https://gitlab.smartcitycanaadoscarajas.com.br/ramon141/conectacanaa-mobile.git
+```
+
+Navigate to the `Installation Folder` and run the command::
+```console
+$ npm install --force
+```
+>*It's necessary to use the parameter `--force` to install the compatible modules with the version of the app.
+
+After that, enter in the ios folder and run:
+```console
+$ pod install
+```
+
