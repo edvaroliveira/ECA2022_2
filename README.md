@@ -19,30 +19,41 @@ O aplicativo Conecta Canaã tem o seu público alvo os moradores da cidade Cana�
 
 <div id='arm'/>  
 
-## Instalação em ambiente arm
+## Instalação em ambiente Arm
 
-### Instalar dependências
-`npm install`
+Instalar dependências
+```console
+$ npm install
+```
 
-### Configure watchamn
-`echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_watches`
+Configure watchamn
+```console
+$ echo 999999 | sudo tee -a /proc/sys/fs/inotify/max_user_watches
+```
 
-### Iniciar react
-`npx react-native start`
+Iniciar react
+```console
+$ npx react-native start
+```
 
-### Emulador android
-`npx react-native run-android --verbose`
+Emulador android
+```console
+$ npx react-native run-android --verbose
+```
 
-### Emulador android release
-`npx react-native run-android --variant release`
+Emulador android release
+```console
+$ npx react-native run-android --variant release
+```
 
-### Problemas
-Program type already present: com.reactnativecommunity.picker.BuildConfig
-
-`npm uninstall @react-native-community/picker`
-
-
+Problemas
+>*Program type already present: com.reactnativecommunity.picker.BuildConfig
+```console
+$ npm uninstall @react-native-community/picker
+```
 <div id='intel'/>  
-## A
+
+
+## Instalação em ambiente Intel
 
 akjshdajkshdkjashdjashdkjahsdashdashd
